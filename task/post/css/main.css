@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+
+* {
+    font-family: "NanumBarunGothic";
+}
+
+.content {
+    width: 65%;
+    height: 200px;
+    float: left;
+}
+
+.container {
+    width: 800px;
+    height: 200px;
+    margin: 30px;
+}
+
+.profile-header {
+    height: 20%;
+}
+
+.profile {
+    height: 100%;
+    margin-right: 20px;
+    float: left;
+}
+
+.profile-name {
+    font-size: 13px;
+    padding-top: 0px
+}
+
+.profile-online {
+    font-size: 11px;
+    color: gray;
+}
+
+.text {
+    font-size: 11px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.share {
+    width: 20px;
+    float: right;
+}
+
+.post-right {
+    width: 35%;
+    height: 100%;
+    float: right;
+}
+
+.post-image {
+    height: 180px;
+}
