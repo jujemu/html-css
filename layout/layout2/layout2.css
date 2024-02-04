@@ -1,0 +1,45 @@
+
+.main-background {
+    width: 650px;
+    height: 500px;
+    background-image: url(./infinite.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+    text-align: center;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center
+}
+
+.main-button {
+    padding: 20px;
+    font-size: 15px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100px;
+    margin: auto;
+}
+
+.main-overlap {
+    background: #eee;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    bottom: -50px;
+    
+    left: 0;
+    right: 0;
+    width: 100px;
+    margin: auto;
+}
