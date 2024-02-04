@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+
+* {
+    font-family: "NanumBarunGothic";
+}
+.input-header {
+    padding-top: 20px;
+}
+
+.container {
+    width: 350px;
+    padding-left: 20px;
+}
+
+.container::after {
+    width: 300px;
+    padding-left: 20px;
+    clear: both;
+}
+
+.input-email-box {
+    padding-left: 5px
+}
+
+.input-email {
+    margin-top: -10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.input-first-name {
+}
+
+.input-name-box {
+    
+}
+
+.input-content::after {
+    clear: both;
+}
+
+.input-content {
+    overflow: hidden;
+}
