@@ -42,6 +42,11 @@ margin-right: auto
 - id
 - tag
 
+### 참고
+
+- tag[속성명: 속성값]으로 속성을 특정할 수 있다.
+- 쉼표로 여러 셀렉터에 같은 스타일을 적용할 수 있다.
+
 ### 자식 태그
 
 - .content li
@@ -106,3 +111,15 @@ background-size의 값
 ### z-index
 
 요소의 쌓임 순서를 결정한다. z-index가 높을 수록 앞에 있다.
+
+## 반응형에 참고할 점
+
+- 반응형 페이지를 만들기 위해서 width와 height에 %를 많이 사용하는데
+- pc에서는 요소가 너무 커질 수 있다. 이럴 때, max-width와 min-width를 사용하면 좋다.
+- width는 content 영역의 너비를 의미한다. 따라서 padding을 넣으면 max-width로 설정한 것보다 요소가 커진다.
+  - box-sizing: border-box; 를 설정하면 width가 padding, border를 포함한다.
+
+## vertical-align
+
+- inline이나 inline-block의 세로 정렬에 사용된다.
+
