@@ -76,3 +76,33 @@ margin-right: auto
 - background-image: url();
   - 참고로 위 background-image와 같은 것을 css의 property(속성), img의 src, alt와 같은 것을 attribute(속성)이라고 한다.
 - 이 때, 상대경로는 css 파일을 중심으로
+
+### cover, contain
+
+background-size의 값
+
+- cover: 빈 공간없이 (div 공간만큼) 이미지로 가득 채워라
+- contain: 이미지가 잘리지 않도록 한다.
+
+## margin collapse 현상
+
+- div 박스 2개의 위쪽 테두리가 겹쳐 있으면 margin 설정을 공유하는 일종의 버그
+- 박스의 위 아래 테두리가 겹칠 때도 적용된다.
+- 해결방안은 두 박스를 떨어뜨리는 것
+  - 예를 들면 한 쪽 박스에 padding을 둔다.
+
+## position과 좌표 레이아웃 만들기
+
+- position 기준 설정
+- float처럼 공중에 뜬다.
+
+### position 종류
+
+- relative: 원래 위치를 기준으로
+- absolute: relative를 가진 부모 태그를 기준으로
+  - 가운데 정렬: left right=0, margin: auto, width: 있기만 하면 된다.
+- fixed: 화면을 기준으로
+
+### z-index
+
+요소의 쌓임 순서를 결정한다. z-index가 높을 수록 앞에 있다.
