@@ -1,42 +1,47 @@
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+
+* {
+    font-family: "NanumBarunGothic";
+}
+
+tr {
+    text-align: center
+}
+
 body{
-    margin: 0;
+    margin: 0px;
 }
 
-th {
-    width: 100px;
-    border-bottom: 1px solid black;
-    padding: 0;
-    margin: 0;
-}
-th img {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 76px;
-}
-
-.table-box {
-    width: 80%;
+.cart-background {
+    width: 700px;
     height: 300px;
-    margin-top: 20px;
-    background-color: aquamarine;
-    overflow: hidden;
-    margin: 0;
-    padding: 20px;
+    padding: 30px;
+    background-color: #c2d3de
 }
 
-.table {
-    width: 80%;
-    max-width: 800px;
-    border-collapse: collapse;
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
     background-color: white;
+    border-radius: 10px;
+    border-collapse: collapse;
 }
 
-.table tr {
-    margin: 20px;
-}
-
-td {
-    border-bottom: 1px solid black;
+.cart-table td, .cart-table th {
     padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cart-table th:nth-child(2) {
+    width: 700px;
 }
