@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+th {
+    width: 100px;
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+th img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 76px;
+}
+
+.table-box {
+    width: 80%;
+    height: 300px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+}
+
+.table {
+    width: 80%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.table tr {
+    margin: 20px;
+}
+
+td {
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
