@@ -123,3 +123,12 @@ background-size의 값
 
 - inline이나 inline-block의 세로 정렬에 사용된다.
 
+## 부모 div가 자식 div를 포함하지 못할 때
+
+- overflow: hidden;
+  - 요소의 내용이 요소의 경계를 넘어갈 때, 잘리도록 설정
+
+## nth-child
+
+- table에서 n번째 등장하는 요소만 스타일링할 때, 사용하는 셀럭터
+  -  예, .table th:nth-child(2)
