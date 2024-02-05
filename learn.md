@@ -132,3 +132,21 @@ background-size의 값
 
 - table에서 n번째 등장하는 요소만 스타일링할 때, 사용하는 셀럭터
   -  예, .table th:nth-child(2)
+
+## pseudo class
+
+요소와 커서의 상호작용으로 트리거, (a, button, 등)
+
+ - hover: 커서를 올려두면
+ - focus: 커서로 선택한 후
+ - active: 커서로 누르고 있으면
+ - a
+   - link: 방문 전
+   - visited: 방문 후 
+
+참고로 위 hover, focus, active의 순서가 중요하다.
+
+## class 작명할 때
+
+Block__Element--Modifier 룰을 따라보자.
+
