@@ -23,7 +23,7 @@
 style="
 display: block;
 margin-left: auto;
-margin-right: auto
+margin-right: auto;
 "
 ```
 
@@ -46,6 +46,12 @@ margin-right: auto
 
 - tag[속성명: 속성값]으로 속성을 특정할 수 있다.
 - 쉼표로 여러 셀렉터에 같은 스타일을 적용할 수 있다.
+
+```
+a[href="https://www.example.com"] {
+    /* 스타일 정의 */
+}
+```
 
 ### 자식 태그
 
@@ -201,3 +207,25 @@ Block__Element--Modifier 룰을 따라보자.
 }
 ```
 
+### font anti-aliasing
+
+- macOS에서는 폰트를 뭐로 하든 이쁘게 보인다.
+- 윈도우는 각져보이는(crispy) 현상이 생긴다.
+  
+해결
+
+```
+p, h4, h3,h2,h1, span {
+  transform: rotate(0.04deg);
+}
+```
+
+## display: flex
+
+가운데 정렬하기
+
+- width로 지정한 만큼 최대한 가지려고 한다.
+- justify-content: 정렬할 수 있다.
+- flex-direction: column -> 세로로 배치
+- flex-wrap: wrap; 가로로 넘치면 다음 줄로 넘어가게 한다.
+- flex-grow: 2 -> 다른 flex 요소대비 2 정도로 크기를 갖는다. 기본값은 1

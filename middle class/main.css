@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "건실한폰트";
+    src: url(../font/NanumSquareR.woff);
+}
+
+@font-face {
+    font-family: "건실한폰트";
+    font-weight: 800;
+    src: url(../font/NanumSquareB.woff);
+}
+
+* {
+    font-family: "건실한폰트";
+}
+
+.font-white {
+    color: white;
+}
+
+div, input, textarea {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "건실한폰트";
+}
+.main-box {
+    background-image: url(./background.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+}
+
+.main-title {
+    margin-top: 160px;
+    text-align: center;
+    
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.main-content {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.main-btn {
+    width: 130px;
+    height: 42px;
+    display: block;
+    margin: auto;
+    
+    border-radius: 5px;
+    background-color: white;
+    
+    font-size: 13px;
+}
+
+.sub-content {
+    width: 500px;
+    height: 100px;
+    background-color: #eee;
+    margin-left: 150px;
+    
+    position: relative;
+    top: -130px;
+}
