@@ -150,3 +150,54 @@ background-size의 값
 
 Block__Element--Modifier 룰을 따라보자.
 
+## 폰트에 관하여
+
+```
+@font-face {
+    font-family: "건실한폰트";
+    src: url(../font/NanumSquareR.woff);
+}
+```
+
+- font-family로 이름을 지정할 수 있다.
+- src에 css 파일을 기준으로 경로를 적는다.
+- 여러 폰트를 지정할 수 있다.
+
+```
+@font-face {
+    font-family: "건실한폰트";
+    font-weight: 800;
+    src: url(../font/NanumSquareB.woff);
+}
+```
+
+- 위처럼 Bold 폰트를 따로 다운받고 위와 동일한 이름과 font-weight를 부여하면
+- 다른 이름을 사용하지 않아도 굵으면서 bold에 적합한 폰트로 지정할 수 있다.
+
+### woff ttf
+
+- woff: 웹폰트용
+- ttf: 운영체제 위에서 작동하도록 설계, 용량이 크다.
+
+### IE 8 이하에서의 호환성
+
+- Fallback font: 웹 폰트를 지원하지 않을 때, 대비할 수 있다.
+- EOT, Embedded Open Type: 과거 버전에서 사용되는 포트 형식
+- Conditional comments
+
+```
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="ie8-styles.css" />
+<![endif]-->
+```
+```
+@font-face { 
+  font-family: 'NanumSquare'; 
+  font-weight: 400; 
+  src: url(NanumSquareR.eot); 
+  src: url(NanumSquareR.eot?#iefix) format('embedded-opentype'), 
+      url(NanumSquareR.woff) format('woff'), 
+      url(NanumSquareR.ttf) format('truetype'); 
+}
+```
+
