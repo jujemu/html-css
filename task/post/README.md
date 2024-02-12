@@ -7,4 +7,4 @@
 
 ## result
 
-![](./post_capture.png)
+![](./imgs/./post_capture.png)
