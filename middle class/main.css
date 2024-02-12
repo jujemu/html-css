@@ -69,3 +69,17 @@ body {
     position: relative;
     top: -130px;
 }
+
+.main-nav {
+    display: flex;
+    width: 800px;
+    height: 70px;
+    background-color: darksalmon;
+    align-items: center;
+}
+
+.main-nav div {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
