@@ -230,3 +230,26 @@ p, h4, h3,h2,h1, span {
 - flex-wrap: wrap; 가로로 넘치면 다음 줄로 넘어가게 한다.
 - flex-grow: 2 -> 다른 flex 요소대비 2 정도로 크기를 갖는다. 기본값은 없기 때문에 1이라도 있으면 다 차지하려고한다.
 - align-items: center -> flex div 안의 요소를 가운데 정렬
+
+## 반응형 레이아웃
+
+### 미디어 쿼리
+
+```css
+@media screen and (max-width: 1200px) {
+    .category {
+        width: 50%;
+    }
+}
+```
+
+- 1200px 이하면 위의 스타일을 적용하라는 의미
+- 미디어 쿼리는 최하단에 입력하여 위 property가 중복되어도 적용될 수 있게 한다.
+- max-width와 같은 것을 breakpoint라고 한다.
+
+### 자주 쓰는 breakpoint
+
+- 태블릿
+  - 1200px, 992px, 768px
+- 모바일
+  - 576px
