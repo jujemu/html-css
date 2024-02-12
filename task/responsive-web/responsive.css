@@ -10,14 +10,19 @@
     font-family: "NanumBarunGothic";
 }
 
+div, input, textarea {
+    box-sizing: border-box;
+}
+
 .container {
     display: flex;
     justify-content: space-evenly;
-    width: 600px;
+    flex-wrap: wrap;
+    width: 1000px;
 }
 
 .category {
-    margin: 5px;
+    flex-basis: 25%;
     text-align: center;
 }
 
@@ -29,15 +34,14 @@
     font-size: 13px;
 }
 
-.sub-container {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
 @media screen and (max-width: 1200px) {
-    .container {
-        flex-direction: column;
+    .category {
+        flex-basis: 50%;
     }
 }
 
+@media screen and (max-width: 576px) {
+    .category {
+        flex-basis: 100%;
+    }
+}
