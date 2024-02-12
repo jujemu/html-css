@@ -114,6 +114,14 @@ background-size의 값
   - 가운데 정렬: left right=0, margin: auto, width: 있기만 하면 된다.
 - fixed: 화면을 기준으로
 
+### relative
+
+![](./imgs/./relative.png)
+
+### absolute
+
+![](./imgs/./absolute.png)
+
 ### z-index
 
 요소의 쌓임 순서를 결정한다. z-index가 높을 수록 앞에 있다.
@@ -264,4 +272,42 @@ p, h4, h3,h2,h1, span {
 - 밑에 적용된 Styles가 나오는데, 최상단의 위치한 property를 확인하여 문제를 해결한다.
   - 적용되지 않는 property는 취소선으로 보여준다.
 - 개발자 도구에서 직접 수정하여 변화를 확인할 수 있으나 소스 코드는 변경되지 않는다.
-- 
+
+## 애니메이션
+
+ - 시작 스타일 만들기
+ - 최종 스타일 만들기
+ - 트리거 설정
+ - transition
+
+### 예제
+
+![](./imgs/animation-goal.gif)
+
+- 이미지를 담는 box class, shop item 위에 가격을 띄울 수 있는 div.overlay 생성
+- overlay는 position: absolute 부여하기 위해 relative div 생성
+- 트리거(hover)를 설정하기 위해 overlay-wrapper를 overlay 위에 놓는다.
+- overlay가 top: 100%를 갖으면서 relative div에 overflow: hidden는 넣는다.
+  - 커서를 놓으면 등장하는 이미지가 사실은 밑에서 나오도록 한다.
+- transition으로 style 변화 시에 점진적으로 표현될 수 있도록 설정
+
+### 구현 코드
+
+```html
+<div class="shop-container">
+  <div class="shop-item">
+    <div style="position: relative; overflow: hidden;">
+        <div class="overlay-wrapper">
+          <div class="overlay">
+            <p class="overlay-text">$50</p>
+          </div>
+          <img src="product1-1.jpg">
+        </div>
+    </div>
+  </div>
+</div>
+```
+
+### 다른 사이트 애니메이션 훔치기
+
+크롬 개발자 도구의 더보기에서 more tools -> Animations
