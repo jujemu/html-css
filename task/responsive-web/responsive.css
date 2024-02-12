@@ -18,7 +18,8 @@ div, input, textarea {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .category {
@@ -43,5 +44,9 @@ div, input, textarea {
 @media screen and (max-width: 576px) {
     .category {
         flex-basis: 100%;
+    }
+    
+    .container {
+        width: 530px;
     }
 }
