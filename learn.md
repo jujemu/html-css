@@ -228,4 +228,5 @@ p, h4, h3,h2,h1, span {
 - justify-content: 정렬할 수 있다.
 - flex-direction: column -> 세로로 배치
 - flex-wrap: wrap; 가로로 넘치면 다음 줄로 넘어가게 한다.
-- flex-grow: 2 -> 다른 flex 요소대비 2 정도로 크기를 갖는다. 기본값은 1
+- flex-grow: 2 -> 다른 flex 요소대비 2 정도로 크기를 갖는다. 기본값은 없기 때문에 1이라도 있으면 다 차지하려고한다.
+- align-items: center -> flex div 안의 요소를 가운데 정렬
