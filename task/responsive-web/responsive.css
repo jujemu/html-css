@@ -27,6 +27,16 @@ div, input, textarea {
     text-align: center;
 }
 
+.category i {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: burlywood;
+    padding-top: 25px;
+    box-sizing: border-box;
+    color: white;
+}
+
 .category h2 {
     font-size: 15px;
 }
