@@ -80,6 +80,8 @@ a[href="https://www.example.com"] {
 - 텍스트에는 baseline이 존재한다.
 - inline-block으로 정렬하면 baseline 위에 객체가 정렬될 수 있으므로 주의한다.
 - vertical-align: top으로 해결할 수 있다.
+  - baseline은 영어 표기에 사용되는 줄과 같다.
+  - baseline을 가지고 있는 텍스트와 inline-block이 같은 줄에 배치되면 baseline 위로 inline-block이 글자처럼 정렬되려하는 성질이 있다.
 
 ## p, h 등 텍스트
 
