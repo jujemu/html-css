@@ -145,6 +145,13 @@ background-size의 값
 
 - overflow: hidden;
   - 요소의 내용이 요소의 경계를 넘어갈 때, 잘리도록 설정
+ 
+### 부모 div를 넘어가는 경우
+
+- position: absolute, position: fixed
+- float: 요소를 부유(floating) 상태로 만들어 텍스트나 인라인 요소의 주위로 감싸질 수 있습니다.
+- margin: 음수 마진은 벗어날 수 있다.
+- overflow: 부모 요소의 내용이 자식 요소를 포함하지 않도록 하거나, 특정 방향으로만 스크롤되도록 할 수 있습니다.
 
 ## nth-child
 
