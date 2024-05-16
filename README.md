@@ -70,6 +70,10 @@ a[href="https://www.example.com"] {
 - wrappe div로 감싸면서 순차적으로 만든다.
 - float, inline-block으로 정렬할 수 있다.
   - float 사용 후에는 이후의 객체가 margin이나 정렬하면서 예상대로 처리가 되지 않으면 `clear: both`
+ 
+## inline vs block
+
+> inline 엘리먼트를 사용할 때 주의할 점은, width와 height 속성을 지정해도 무시된다는 것입니다. 왜냐하면 해당 태그가 마크업하고 있는 컨텐츠의 크기 만큼만 공간을 차지하도록 되어 있기 때문입니다. 또한, margin과 padding 속성은 좌우 간격만 반영이 되고, 상하 간격은 반영이 되지 않습니다.
 
 ### text
 
