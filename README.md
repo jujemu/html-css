@@ -150,6 +150,7 @@ background-size의 값
  
 ### 부모 div를 넘어가는 경우
 
+- width가 content 영역을 기준으로 하기 때문에 100% 설정하면 padding 때문에 부모 block을 넘어갈 수 있다. border-sizing로 해결한다.
 - position: absolute, position: fixed
 - float: 요소를 부유(floating) 상태로 만들어 텍스트나 인라인 요소의 주위로 감싸질 수 있습니다.
 - margin: 음수 마진은 벗어날 수 있다.
