@@ -334,6 +334,10 @@ p, h4, h3,h2,h1, span {
 
 크롬 개발자 도구의 더보기에서 more tools -> Animations
 
+## 버튼 만들기, 뼈대와 살점을 분리하자
+
+![](imgs/button.png)
+
 ## 참고
 
 - 아이콘: https://fontawesome.com/
