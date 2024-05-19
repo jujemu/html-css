@@ -332,3 +332,7 @@ p, h4, h3,h2,h1, span {
 ### 다른 사이트 애니메이션 훔치기
 
 크롬 개발자 도구의 더보기에서 more tools -> Animations
+
+## 참고
+
+- 아이콘: https://fontawesome.com/
