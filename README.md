@@ -358,3 +358,4 @@ p, h4, h3,h2,h1, span {
 ## 참고
 
 - 아이콘: https://fontawesome.com/
+- css flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background
