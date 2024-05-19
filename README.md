@@ -70,6 +70,7 @@ a[href="https://www.example.com"] {
 - wrappe div로 감싸면서 순차적으로 만든다.
 - float, inline-block으로 정렬할 수 있다.
   - float 사용 후에는 이후의 객체가 margin이나 정렬하면서 예상대로 처리가 되지 않으면 `clear: both`
+  - float는 left와 right로 선택할 수 있다.
 
 ### float 예제
 
