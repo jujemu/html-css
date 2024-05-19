@@ -7,11 +7,14 @@
 .shop-item {
     width: 33%;
     padding: 10px;
+    /*position: relative;*/
+    /*overflow: hidden;*/
 }
 
 .shop-item img {
     width: 100%;
 }
+
 .overlay {
     position: absolute;
     top: 120%;
@@ -28,10 +31,12 @@
     padding-left: 40px;
     font-size: 22px;
     color: white;
-    font-size: 
 }
 
-
+.overlay-wrapper {
+    position: relative;
+    overflow: hidden;
+}
 
 .overlay-wrapper:hover .overlay {
     top: 50%;
