@@ -333,6 +333,17 @@ p, h4, h3,h2,h1, span {
 ### 다른 사이트 애니메이션 훔치기
 
 크롬 개발자 도구의 더보기에서 more tools -> Animations
+
+## 버튼 만들기, 뼈대와 살점을 분리하자
+
+![](imgs/button.png)
+
+## UI 설계 팁
+
+### 백그라운드와 content
+
+![](imgs/ui_tip.png)
+
 - 백그라운드를 담을 div와 content를 담을 div를 분리한다.
 - content div는 페이지 전체에서 지켜야하는데 max_width를 정의하고,
   - 각 header, footer 백그라운드 div에 같은 content div container를 넣는다. 그러면 max_width로 뼈대를 공유할 수 있다.
