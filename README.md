@@ -361,6 +361,7 @@ p, h4, h3,h2,h1, span {
 - important를 사용한다.(비추)
 - 같은 class를 나중에 불러온다. link를 밑에 추가하거나 class 정의를 원본보다 아래에 한다.(media query처럼)
 - specificity를 높인다. class를 보다 구체적으로 작성하면 점수가 높아진다.
+  - 미래에 specificity를 높일 것을 대비해서 처음에는 클래스명만 명시하는 것이 좋다.
 
 ## 참고
 
