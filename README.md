@@ -333,17 +333,6 @@ p, h4, h3,h2,h1, span {
 ### 다른 사이트 애니메이션 훔치기
 
 크롬 개발자 도구의 더보기에서 more tools -> Animations
-
-## 버튼 만들기, 뼈대와 살점을 분리하자
-
-![](imgs/button.png)
-
-## UI 설계 팁
-
-### 백그라운드와 content
-
-![](imgs/ui_tip.png)
-
 - 백그라운드를 담을 div와 content를 담을 div를 분리한다.
 - content div는 페이지 전체에서 지켜야하는데 max_width를 정의하고,
   - 각 header, footer 백그라운드 div에 같은 content div container를 넣는다. 그러면 max_width로 뼈대를 공유할 수 있다.
@@ -354,6 +343,13 @@ p, h4, h3,h2,h1, span {
   margin: auto;
 } 
 ```
+
+## css 덮어버리기
+
+- class로 설정된 속성을 id로 덮어버리기(id 점수가 더 높다.)
+- important를 사용한다.(비추)
+- 같은 class를 나중에 불러온다. link를 밑에 추가하거나 class 정의를 원본보다 아래에 한다.(media query처럼)
+- specificity를 높인다. class를 보다 구체적으로 작성하면 점수가 높아진다.
 
 ## 참고
 
